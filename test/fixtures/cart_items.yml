@@ -1,0 +1,11 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  shopping_session: one
+  build: one
+  quantity: 1
+
+two:
+  shopping_session: two
+  build: two
+  quantity: 1

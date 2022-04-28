@@ -1,0 +1,15 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  title: MyString
+  description: MyString
+  gpu_precedent: 1
+  cpu_precedent: 1
+  ram_space_suggestion: 1
+
+two:
+  title: MyString
+  description: MyString
+  gpu_precedent: 1
+  cpu_precedent: 1
+  ram_space_suggestion: 1

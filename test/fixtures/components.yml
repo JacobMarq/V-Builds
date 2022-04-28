@@ -1,0 +1,25 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  part_number: MyString
+  brand: MyString
+  model: MyString
+  price: 9.99
+  ub_rank: 1
+  ub_benchmark: 1
+  ub_samples: 1
+  ub_link: MyString
+  type: one
+  stock: 1
+
+two:
+  part_number: MyString
+  brand: MyString
+  model: MyString
+  price: 9.99
+  ub_rank: 1
+  ub_benchmark: 1
+  ub_samples: 1
+  ub_link: MyString
+  type: two
+  stock: 1
