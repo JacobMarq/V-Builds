@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :component_inventories
   resources :cart_items
   resources :shopping_sessions
   resources :user_builds

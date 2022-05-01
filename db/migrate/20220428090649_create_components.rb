@@ -10,7 +10,7 @@ class CreateComponents < ActiveRecord::Migration[7.0]
       t.integer :ub_samples
       t.string :ub_link
       t.references :type, null: false, foreign_key: true
-      t.integer :stock
+      t.references :component_inventory, null: false, foreign_key: true
 
       t.timestamps
     end
