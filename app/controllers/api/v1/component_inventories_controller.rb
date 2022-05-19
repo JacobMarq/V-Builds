@@ -1,4 +1,4 @@
-class ComponentInventoriesController < ApplicationController
+class Api::V1::ComponentInventoriesController < Api::V1::ApplicationController
   before_action :set_component_inventory, only: %i[ show update destroy ]
 
   # GET /component_inventories

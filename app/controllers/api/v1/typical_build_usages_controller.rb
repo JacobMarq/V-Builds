@@ -1,4 +1,4 @@
-class TypicalBuildUsagesController < ApplicationController
+class Api::V1::TypicalBuildUsagesController < Api::V1::ApplicationController
   before_action :set_typical_build_usage, only: %i[ show update destroy ]
 
   # GET /typical_build_usages

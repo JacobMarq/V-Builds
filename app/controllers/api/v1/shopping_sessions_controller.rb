@@ -1,4 +1,4 @@
-class ShoppingSessionsController < ApplicationController
+class Api::V1::ShoppingSessionsController < Api::V1::ApplicationController
   before_action :set_shopping_session, only: %i[ show update destroy ]
 
   # GET /shopping_sessions

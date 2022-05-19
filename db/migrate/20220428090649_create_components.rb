@@ -4,7 +4,7 @@ class CreateComponents < ActiveRecord::Migration[7.0]
       t.string :part_number
       t.string :brand
       t.string :model
-      t.decimal :price, precision: 12, scale: 2
+      t.integer :price_cents, default: 0
       t.integer :ub_rank
       t.integer :ub_benchmark
       t.integer :ub_samples

@@ -1,4 +1,4 @@
-class AttributesController < ApplicationController
+class Api::V1::AttributesController < Api::V1::ApplicationController
   before_action :set_attribute, only: %i[ show update destroy ]
 
   # GET /attributes

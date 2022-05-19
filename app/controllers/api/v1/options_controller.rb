@@ -1,4 +1,4 @@
-class OptionsController < ApplicationController
+class Api::V1::OptionsController < Api::V1::ApplicationController
   before_action :set_option, only: %i[ show update destroy ]
 
   # GET /options

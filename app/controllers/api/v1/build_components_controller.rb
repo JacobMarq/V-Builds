@@ -1,4 +1,4 @@
-class BuildComponentsController < ApplicationController
+class Api::V1::BuildComponentsController < Api::V1::ApplicationController
   before_action :set_build_component, only: %i[ show update destroy ]
 
   # GET /build_components

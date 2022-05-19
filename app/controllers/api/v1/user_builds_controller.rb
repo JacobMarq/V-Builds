@@ -1,4 +1,4 @@
-class UserBuildsController < ApplicationController
+class Api::V1::UserBuildsController < Api::V1::ApplicationController
   before_action :set_user_build, only: %i[ show update destroy ]
 
   # GET /user_builds

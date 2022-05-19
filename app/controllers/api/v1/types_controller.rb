@@ -1,4 +1,4 @@
-class TypesController < ApplicationController
+class Api::V1::TypesController < Api::V1::ApplicationController
   before_action :set_type, only: %i[ show update destroy ]
 
   # GET /types

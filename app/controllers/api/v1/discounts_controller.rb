@@ -1,4 +1,4 @@
-class DiscountsController < ApplicationController
+class Api::V1::DiscountsController < Api::V1::ApplicationController
   before_action :set_discount, only: %i[ show update destroy ]
 
   # GET /discounts

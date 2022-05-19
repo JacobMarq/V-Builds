@@ -1,4 +1,4 @@
-class BuildsController < ApplicationController
+class Api::V1::BuildsController < Api::V1::ApplicationController
   before_action :set_build, only: %i[ show update destroy ]
 
   # GET /builds
