@@ -5,10 +5,7 @@ class CreateOrders < ActiveRecord::Migration[7.0]
       t.integer :amount_cents, default: 0
       t.string :customer_id
       t.string :payment_gateway
-      t.string :token
-      t.string :error_message
-      t.string :charge_id
-      t.integer :status, default: 0
+      t.string :payment_intent_id
 
       t.timestamps
     end

@@ -1,6 +1,6 @@
 class Option < ApplicationRecord
-    has_many :attribute_options
-    has_many :attributes, through: :attribute_options, source: :attribute
+    has_many :specification_options
+    has_many :specifications, through: :specification_options, source: :specification
 
-    validates :option_value, presence: true
+    validates :value, presence: true
 end

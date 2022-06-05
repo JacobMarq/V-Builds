@@ -9,48 +9,30 @@ class Api::V1::OrdersController < Api::V1::ApplicationController
     render json: @orders
   end
 
-  def submit
+  # POST /orders
+  def create
     @order = nil
     @order_items = {}
     #Check which type of order it is
     if order_params[:payment_gateway] == "stripe"
       prepare_new_order
-      Orders::Stripe.execute(order: @order, user: current_user)
     elsif order_params[:payment_gateway] == "paypal"
       #PAYPAL WILL BE HANDLED HERE
     end
   ensure
-    if @order&.save
+    if @order.save
       for order_item in @order_items do
         order_item.save
       end
-
-      if @order.paid?
-        # Success is rendered when order is paid and saved
-        return render html: SUCCESS_MESSAGE
-      elsif @order.failed? && !@order.error_message.blank?
-        # Render error only if order failed and there is an error_message
-        return render html: @order.error_message
-      end
+    else
+      render json: @order.errors, status: :unprocessable_entity
     end
-    render html: FAILURE_MESSAGE
   end
 
   # GET /orders/1
   def show
     render json: @order
   end
-
-  # POST /orders
-  # def create
-  #   @order = Order.new(order_params)
-
-  #   if @order.save
-  #     render json: @order, status: :created, location: @order
-  #   else
-  #     render json: @order.errors, status: :unprocessable_entity
-  #   end
-  # end
 
   # PATCH/PUT /orders/1
   def update
@@ -79,25 +61,7 @@ class Api::V1::OrdersController < Api::V1::ApplicationController
         order_item = OrderItem.new(order_id: @order.id, build_id: cart_item.build_id)
         @order_items << order_item
       end
-      # prepare_order_description
     end
-
-    # # Gather information to create order description
-    # def prepare_order_description
-    #   for order_item in @order_items do
-    #     build = Build.find(build_id: order_item.build_id)
-    #     @components = build.components
-    #     @order_description = create_description(@components)
-    #   end
-    # end
-
-    # # Create order description
-    # def create_description
-    #   temp_desc = nil
-    #   for component in @components do
-    #     temp_desc << component.model + " "
-    #   end
-    # end
 
     # Use callbacks to share common setup or constraints between actions.
     def set_order
@@ -106,7 +70,6 @@ class Api::V1::OrdersController < Api::V1::ApplicationController
 
     # Only allow a list of trusted parameters through.
     def order_params
-      params.require(:order).permit(:users_id, :token, 
-:amount_cents, :payment_gateway, :charge_id)
+      params.require(:order).permit(:users_id, :amount_cents, :payment_gateway, :charge_id)
     end
 end

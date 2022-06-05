@@ -42,8 +42,7 @@ class DeviseCreateUsers < ActiveRecord::Migration[7.0]
       t.string :phone_number, null: false, default: "", limit: 13 
       t.integer :budget, null: false, default: 0
       t.boolean :rgb_preference, null: false, default: 0
-      t.references :typical_build_usage, null: false, foreign_key: true
-
+    
       t.timestamps null: false
     end
 

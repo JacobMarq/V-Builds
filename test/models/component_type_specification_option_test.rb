@@ -1,6 +1,6 @@
 require "test_helper"
 
-class AttributeOptionTest < ActiveSupport::TestCase
+class ComponentTypeSpecificationOptionTest < ActiveSupport::TestCase
   # test "the truth" do
   #   assert true
   # end

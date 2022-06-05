@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
   namespace 'api' do
     namespace 'v1' do
+      resources :component_type_specification_options
       resources :component_inventories
       resources :cart_items
       resources :shopping_sessions
@@ -10,13 +11,13 @@ Rails.application.routes.draw do
       resources :builds
       resources :discounts
       resources :components
-      resources :type_attributes
+      resources :type_specifications
       resources :types
-      resources :attribute_options
-      resources :attributes
+      resources :specification_options
+      resources :specifications
       resources :options
       resources :orders
-      resources :typical_build_usages
+      resources :typical_usages
       devise_for :users
       post '/create-payment-intent', to: 'payment_intents#create'
     end

@@ -1,8 +1,8 @@
 class Type < ApplicationRecord
     has_many :components
 
-    has_many :type_attributes
-    has many :attributes, through: :type_attributes, source: :attribute
+    has_many :type_specifications
+    has_many :specifications, through: :type_specifications, source: :specification
 
-    validates :type_name, presence: true, uniqueness: true
+    validates :name, presence: true, uniqueness: true
 end

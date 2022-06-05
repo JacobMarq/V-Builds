@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  component: one
+  type: one
+  attribute: one
+  option: one
+
+two:
+  component: two
+  type: two
+  attribute: two
+  option: two
