@@ -114,7 +114,7 @@ options = Option.create([{ value: 'yes' }, #RGB ECC_Support Air_Cooling Water_Co
                         { value: '64gb' }, #Memory_Size
                         { value: '128gb' }, #Memory_Size
                         { value: '120mm' }, #Size
-                        { value: '140mm' }, #Size 
+                        { value: '140mm' }, #Size
                         { value: '240mm' }, #Size
                         { value: '360mm' }, #Size
                         { value: 'DDR3' }, #Memory_Type
@@ -122,10 +122,10 @@ options = Option.create([{ value: 'yes' }, #RGB ECC_Support Air_Cooling Water_Co
                         { value: 'DDR5'}, #Memory_Type
                         { value: 'DDR6' },]) #Memory_Type
 specification_options = SpecificationOption.create([{ specification_id: specifications[0].id, option_id: options[18].id },
-                                            { specification_id: specifications[0].id, option_id: options[19].id },
-                                            { specification_id: specifications[0].id, option_id: options[20].id },
-                                            { specification_id: specifications[0].id, option_id: options[21].id },
-                                            { specification_id: specifications[24].id, option_id: options[17].id },
-                                            { specification_id: specifications[24].id, option_id: options[16].id },
-                                            { specification_id: specifications[24].id, option_id: options[15].id },
-                                            { specification_id: specifications[24].id, option_id: options[14].id },])
+                                                { specification_id: specifications[0].id, option_id: options[19].id },
+                                                { specification_id: specifications[0].id, option_id: options[20].id },
+                                                { specification_id: specifications[0].id, option_id: options[21].id },
+                                                { specification_id: specifications[24].id, option_id: options[17].id },
+                                                { specification_id: specifications[24].id, option_id: options[16].id },
+                                                { specification_id: specifications[24].id, option_id: options[15].id },
+                                                { specification_id: specifications[24].id, option_id: options[14].id },])
