@@ -2,18 +2,18 @@ Type,Part Number,Brand,Model,Rank,Benchmark,Samples,URL,Memory Size,Memory Type,
 RAM,F4-2400C14Q2-128GRK,G.SKILL,Ripjaws 4,1,121,53,https://ram.userbenchmark.com/GSKILL-Ripjaws-4-DDR4-2400-C14-8x16GB/Rating/3567,8x16GB,DDR4,C14,2400
 RAM,F4-3200C14Q-64GTZ,G.SKILL,Trident Z,2,115,1156,https://ram.userbenchmark.com/GSKILL-Trident-Z-DDR4-3200-C14-4x16GB/Rating/3612,4x16GB,DDR4,C14,3200
 RAM,BLS4K8G4D240FSA,Crucial,Ballistix Sport,3,110,124,https://ram.userbenchmark.com/SpeedTest/93395/Crucial-BLS4G4D240FSAM8FAD-8x4GB,8x4GB,DDR4,C16,2400
-RAM,F4-3200C14Q-32GFX,G.SKILL,Flare X,4,109,7619,https://ram.userbenchmark.com/SpeedTest/270794/GSKILL-F4-3200C14-8GFX-4x8GB,4x8GB,DDR4,C14,3200
-RAM,BLE4K8G4D36BEEAK,Crucial,Ballistix Elite,5,108,1370,https://ram.userbenchmark.com/SpeedTest/811381/Crucial-BLE8G4D36BEEAKM8FE1-4x8GB,4x8GB,DDR4,C16,3600
+RAM,F4-3200C14Q-32GFX,G.SKILL,Flare X,4,109,7553,https://ram.userbenchmark.com/SpeedTest/270794/GSKILL-F4-3200C14-8GFX-4x8GB,4x8GB,DDR4,C14,3200
+RAM,BLE4K8G4D36BEEAK,Crucial,Ballistix Elite,5,109,1360,https://ram.userbenchmark.com/SpeedTest/811381/Crucial-BLE8G4D36BEEAKM8FE1-4x8GB,4x8GB,DDR4,C16,3600
 RAM,F4-3200C15Q-64GTZ,G.SKILL,Trident Z,6,104,204,https://ram.userbenchmark.com/GSKILL-Trident-Z-DDR4-3200-C15-4x16GB/Rating/3613,4x16GB,DDR4,C15,3200
 RAM,CMD64GX4M4B3000C15,Corsair,Dominator,7,99.3,129,https://ram.userbenchmark.com/Corsair-Dominator-DDR4-3000-C15-4x16GB/Rating/3565,4x16GB,DDR4,C15,3000
 RAM,F4-3200C14D-16GFX,G.SKILL,Flare X,8,98.3,47897,https://ram.userbenchmark.com/SpeedTest/255366/GSKILL-F4-3200C14-8GFX-2x8GB,2x8GB,DDR4,C14,3200
 RAM,F4-3600C16D-16GTZ,G.SKILL,Trident Z,9,98,3869,https://ram.userbenchmark.com/GSKILL-Trident-Z-DDR4-3600-C16-2x8GB/Rating/3562,2x8GB,DDR4,C16,3600
 RAM,BLS4K4G4D240FSA,Crucial,Ballistix Sport,10,97.5,1888,https://ram.userbenchmark.com/Crucial-Ballistix-Sport-DDR4-2400-C16-4x4GB/Rating/3561,4x4GB,DDR4,C16,2400
-RAM,CMK32GX4M2Z3600C18,Corsair,Vengeance LPX,11,97.2,10448,https://ram.userbenchmark.com/SpeedTest/998434/Corsair-Vengeance-LPX-CMK32GX4M2Z3600C18-2x16GB,2x16GB,DDR4,C18,3600
+RAM,CMK32GX4M2Z3600C18,Corsair,Vengeance LPX,11,97.2,10773,https://ram.userbenchmark.com/SpeedTest/998434/Corsair-Vengeance-LPX-CMK32GX4M2Z3600C18-2x16GB,2x16GB,DDR4,C18,3600
 RAM,F4-3600C17D-16GTZ,G.SKILL,Trident Z,12,96.2,1665,https://ram.userbenchmark.com/GSKILL-Trident-Z-DDR4-3600-C17-2x8GB/Rating/3563,2x8GB,DDR4,C17,3600
 RAM,CMK32GX4M4A2666C15,Corsair,Vengeance LPX,13,95.8,761,https://ram.userbenchmark.com/SpeedTest/89347/Corsair-Vengeance-LPX-CMK32GX4M4A2666C15-4x8GB,4x8GB,DDR4,C15,2666
-RAM,F4-3200C16Q-64GVK,G.SKILL,Ripjaws V,14,95,13126,https://ram.userbenchmark.com/GSKILL-Ripjaws-V-DDR4-3200-C16-4x16GB/Rating/3564,4x16GB,DDR4,C16,3200
-RAM,BLE2K8G4D36BEEAK,Crucial,Ballistix Elite,15,94.9,2932,https://ram.userbenchmark.com/SpeedTest/786050/Crucial-BLE8G4D36BEEAKM8FE1-2x8GB,2x8GB,DDR4,C16,3600
+RAM,F4-3200C16Q-64GVK,G.SKILL,Ripjaws V,14,95.5,13528,https://ram.userbenchmark.com/GSKILL-Ripjaws-V-DDR4-3200-C16-4x16GB/Rating/3564,4x16GB,DDR4,C16,3200
+RAM,BLE2K8G4D36BEEAK,Crucial,Ballistix Elite,15,95.1,2919,https://ram.userbenchmark.com/SpeedTest/786050/Crucial-BLE8G4D36BEEAKM8FE1-2x8GB,2x8GB,DDR4,C16,3600
 RAM,F4-3000C15Q-16GRR,G.SKILL,Ripjaws 4,16,92.4,3385,https://ram.userbenchmark.com/GSKILL-Ripjaws-4-DDR4-3000-C15-4x4GB/Rating/3540,4x4GB,DDR4,C15,3000
 RAM,F4-3000C15Q-16GRB,G.SKILL,Ripjaws 4,16,92.4,3385,https://ram.userbenchmark.com/GSKILL-Ripjaws-4-DDR4-3000-C15-4x4GB/Rating/3540,4x4GB,DDR4,C15,3000
 RAM,F4-3000C15Q-16GRK,G.SKILL,Ripjaws 4,16,92.4,3385,https://ram.userbenchmark.com/GSKILL-Ripjaws-4-DDR4-3000-C15-4x4GB/Rating/3540,4x4GB,DDR4,C15,3000
@@ -26,7 +26,7 @@ RAM,F4-3600C17D-8GTZ,G.SKILL,Trident Z,20,91.4,153,https://ram.userbenchmark.com
 RAM,CMK16GX4M4B3000C15,Corsair,Vengeance LPX,21,91,6685,https://ram.userbenchmark.com/Corsair-Vengeance-LPX-DDR4-3000-C15-4x4GB/Rating/3558,4x4GB,DDR4,C15,3000
 RAM,CMK16GX4M4B3000C15B,Corsair,Vengeance LPX,21,91,6685,https://ram.userbenchmark.com/Corsair-Vengeance-LPX-DDR4-3000-C15-4x4GB/Rating/3558,4x4GB,DDR4,C15,3000
 RAM,CMK16GX4M4B3000C15R,Corsair,Vengeance LPX,21,91,6685,https://ram.userbenchmark.com/Corsair-Vengeance-LPX-DDR4-3000-C15-4x4GB/Rating/3558,4x4GB,DDR4,C15,3000
-RAM,CMK16GX4M2D3600C18,Corsair,Vengeance LPX,22,90.7,80118,https://ram.userbenchmark.com/SpeedTest/808862/Corsair-Vengeance-LPX-CMK16GX4M2D3600C18-2x8GB,2x8GB,DDR4,C18,3600
+RAM,CMK16GX4M2D3600C18,Corsair,Vengeance LPX,22,89.7,79500,https://ram.userbenchmark.com/SpeedTest/808862/Corsair-Vengeance-LPX-CMK16GX4M2D3600C18-2x8GB,2x8GB,DDR4,C18,3600
 RAM,CMK32GX4M2B3200C16,Corsair,Vengeance LPX,23,89.2,114335,https://ram.userbenchmark.com/SpeedTest/97244/Corsair-Vengeance-LPX-CMK32GX4M2B3200C16-2x16GB,2x16GB,DDR4,C16,3200
 RAM,CMR16GX4M2C3600C18,Corsair,Vengeance RGB,24,89.2,5391,https://ram.userbenchmark.com/SpeedTest/315553/Corsair-CMR16GX4M2C3600C18-2x8GB,2x8GB,DDR4,C18,3600
 RAM,CMK16GX4M4A2800C16,Corsair,Vengeance LPX,25,88.6,3861,https://ram.userbenchmark.com/Corsair-Vengeance-LPX-DDR4-2800-C16-4x4GB/Rating/3541,4x4GB,DDR4,C16,2800
@@ -37,15 +37,15 @@ RAM,CMK16GX4M4A2666C16,Corsair,Vengeance LPX,27,87,6401,https://ram.userbenchmar
 RAM,CMK16GX4M4A2666C16B,Corsair,Vengeance LPX,27,87,6401,https://ram.userbenchmark.com/Corsair-Vengeance-LPX-DDR4-2666-C16-4x4GB/Rating/3557,4x4GB,DDR4,C16,2666
 RAM,CMK16GX4M4A2666C16R,Corsair,Vengeance LPX,27,87,6401,https://ram.userbenchmark.com/Corsair-Vengeance-LPX-DDR4-2666-C16-4x4GB/Rating/3557,4x4GB,DDR4,C16,2666
 RAM,CMR32GX4M2C3000C15,Corsair,Vengeance RGB,28,86.8,1030,https://ram.userbenchmark.com/SpeedTest/335632/Corsair-CMR32GX4M2C3000C15-2x16GB,2x16GB,DDR4,C15,3000
-RAM,CMK32GX4M4A2400C14,Corsair,Vengeance LPX,29,86.8,4512,https://ram.userbenchmark.com/Corsair-Vengeance-LPX-DDR4-2400-C14-4x8GB/Rating/3542,4x8GB,DDR4,C14,2400
-RAM,CMK32GX4M4A2400C14B,Corsair,Vengeance LPX,29,86.8,4512,https://ram.userbenchmark.com/Corsair-Vengeance-LPX-DDR4-2400-C14-4x8GB/Rating/3542,4x8GB,DDR4,C14,2400
-RAM,CMK32GX4M4A2400C14R,Corsair,Vengeance LPX,29,86.8,4512,https://ram.userbenchmark.com/Corsair-Vengeance-LPX-DDR4-2400-C14-4x8GB/Rating/3542,4x8GB,DDR4,C14,2400
+RAM,CMK32GX4M4A2400C14,Corsair,Vengeance LPX,29,86.7,4562,https://ram.userbenchmark.com/Corsair-Vengeance-LPX-DDR4-2400-C14-4x8GB/Rating/3542,4x8GB,DDR4,C14,2400
+RAM,CMK32GX4M4A2400C14B,Corsair,Vengeance LPX,29,86.7,4562,https://ram.userbenchmark.com/Corsair-Vengeance-LPX-DDR4-2400-C14-4x8GB/Rating/3542,4x8GB,DDR4,C14,2400
+RAM,CMK32GX4M4A2400C14R,Corsair,Vengeance LPX,29,86.7,4562,https://ram.userbenchmark.com/Corsair-Vengeance-LPX-DDR4-2400-C14-4x8GB/Rating/3542,4x8GB,DDR4,C14,2400
 RAM,CMR16GX4M2C3200C16,Corsair,Vengeance RGB,30,86.7,16099,https://ram.userbenchmark.com/SpeedTest/298180/Corsair-CMR16GX4M2C3200C16-2x8GB,2x8GB,DDR4,C16,3200
 RAM,HX426C15FBK2/16,HyperX,Fury,31,85.3,39021,https://ram.userbenchmark.com/HyperX-Fury-DDR4-2666-C15-2x8GB/Rating/3553,2x8GB,DDR4,C15,2666
 RAM,CMK32GX4M4A2400C16,Corsair,Vengeance LPX,32,85.3,1455,https://ram.userbenchmark.com/SpeedTest/108268/Corsair-Vengeance-LPX-CMK32GX4M4A2400C16-4x8GB,4x8GB,DDR4,C16,2400
-RAM,F4-3000C15D-16GTZB,G.SKILL,Trident Z,33,85.1,6402,https://ram.userbenchmark.com/GSKILL-Trident-Z-DDR4-3000-C15-2x8GB/Rating/3548,2x8GB,DDR4,C15,3000
-RAM,CMK32GX4M2B3000C15,Corsair,Vengeance LPX,34,85,34292,https://ram.userbenchmark.com/SpeedTest/92054/Corsair-Vengeance-LPX-CMK32GX4M2B3000C15-2x16GB,2x16GB,DDR4,C15,3000
-RAM,F4-3200C16D-16GTZB,G.SKILL,Trident Z,35,84.8,32889,https://ram.userbenchmark.com/GSKILL-Trident-Z-DDR4-3200-C16-2x8GB/Rating/3550,2x8GB,DDR4,C16,3200
+RAM,CMK32GX4M2B3000C15,Corsair,Vengeance LPX,33,85,34292,https://ram.userbenchmark.com/SpeedTest/92054/Corsair-Vengeance-LPX-CMK32GX4M2B3000C15-2x16GB,2x16GB,DDR4,C15,3000
+RAM,F4-3200C16D-16GTZB,G.SKILL,Trident Z,34,84.9,30284,https://ram.userbenchmark.com/GSKILL-Trident-Z-DDR4-3200-C16-2x8GB/Rating/3550,2x8GB,DDR4,C16,3200
+RAM,F4-3000C15D-16GTZB,G.SKILL,Trident Z,35,84.9,6512,https://ram.userbenchmark.com/GSKILL-Trident-Z-DDR4-3000-C15-2x8GB/Rating/3548,2x8GB,DDR4,C15,3000
 RAM,CMU16GX4M2C3200C16,Corsair,Vengeance LED,36,84.7,37980,https://ram.userbenchmark.com/SpeedTest/155727/Corsair-CMU16GX4M2C3200C16-2x8GB,2x8GB,DDR4,C16,3200
 RAM,CMU16GX4M2C3200C16B,Corsair,Vengeance LED,36,84.7,37980,https://ram.userbenchmark.com/SpeedTest/155727/Corsair-CMU16GX4M2C3200C16-2x8GB,2x8GB,DDR4,C16,3200
 RAM,CMU16GX4M2C3200C16R,Corsair,Vengeance LED,36,84.7,37980,https://ram.userbenchmark.com/SpeedTest/155727/Corsair-CMU16GX4M2C3200C16-2x8GB,2x8GB,DDR4,C16,3200
@@ -60,21 +60,21 @@ RAM,CMK16GX4M4A2400C14,Corsair,Vengeance LPX,41,83.6,3864,https://ram.userbenchm
 RAM,CMK16GX4M4A2400C14B,Corsair,Vengeance LPX,41,83.6,3864,https://ram.userbenchmark.com/Corsair-Vengeance-LPX-DDR4-2400-C14-4x4GB/Rating/3533,4x4GB,DDR4,C14,2400
 RAM,CMK16GX4M4A2400C14R,Corsair,Vengeance LPX,41,83.6,3864,https://ram.userbenchmark.com/Corsair-Vengeance-LPX-DDR4-2400-C14-4x4GB/Rating/3533,4x4GB,DDR4,C14,2400
 RAM,HX426C15FBK2/8,HyperX,Fury,42,83.5,28691,https://ram.userbenchmark.com/HyperX-Fury-DDR4-2666-C15-2x4GB/Rating/3556,2x4GB,DDR4,C15,2666
-RAM,HX426C13PB3K2/16,HyperX,Predator,43,83,7026,https://ram.userbenchmark.com/SpeedTest/318273/Kingston-KHX2666C138GX-2x8GB,2x8GB,"",C13,2666
-RAM,CMU16GX4M2C3000C15,Corsair,Vengeance LED,44,82.8,34262,https://ram.userbenchmark.com/SpeedTest/156965/Corsair-CMU16GX4M2C3000C15-2x8GB,2x8GB,DDR4,C15,3000
-RAM,CMU16GX4M2C3000C15B,Corsair,Vengeance LED,44,82.8,34262,https://ram.userbenchmark.com/SpeedTest/156965/Corsair-CMU16GX4M2C3000C15-2x8GB,2x8GB,DDR4,C15,3000
-RAM,CMU16GX4M2C3000C15R,Corsair,Vengeance LED,44,82.8,34262,https://ram.userbenchmark.com/SpeedTest/156965/Corsair-CMU16GX4M2C3000C15-2x8GB,2x8GB,DDR4,C15,3000
-RAM,HX424C15FBK4/16,HyperX,Fury,45,82.7,11283,https://ram.userbenchmark.com/HyperX-Fury-DDR4-2400-C15-4x4GB/Rating/3585,4x4GB,DDR4,C15,2400
-RAM,CMD16GX4M2B3000C15,Corsair,Dominator,46,82.5,13692,https://ram.userbenchmark.com/Corsair-Dominator-DDR4-3000-C15-2x8GB/Rating/3597,2x8GB,DDR4,C15,3000
-RAM,CMW16GX4M2C3000C15,Corsair,Vengeance RGB PRO,47,82.3,93839,https://ram.userbenchmark.com/SpeedTest/523893/Corsair-CMW16GX4M2C3000C15-2x8GB,2x8GB,DDR4,C15,3200
-RAM,CMK16GX4M2B3000C15,Corsair,Vengeance LPX,48,82.3,576174,https://ram.userbenchmark.com/Corsair-Vengeance-LPX-DDR4-3000-C15-2x8GB/Rating/3546,2x8GB,DDR4,C15,3000
-RAM,CMK16GX4M2B3000C15B,Corsair,Vengeance LPX,48,82.3,576174,https://ram.userbenchmark.com/Corsair-Vengeance-LPX-DDR4-3000-C15-2x8GB/Rating/3546,2x8GB,DDR4,C15,3000
-RAM,CMK16GX4M2B3000C15R,Corsair,Vengeance LPX,48,82.3,576174,https://ram.userbenchmark.com/Corsair-Vengeance-LPX-DDR4-3000-C15-2x8GB/Rating/3546,2x8GB,DDR4,C15,3000
-RAM,CMK16GX4M2B3000C15W,Corsair,Vengeance LPX,48,82.3,576174,https://ram.userbenchmark.com/Corsair-Vengeance-LPX-DDR4-3000-C15-2x8GB/Rating/3546,2x8GB,DDR4,C15,3000
-RAM,CMR16GX4M2D3000C16,Corsair,Vengeance RGB,49,82.2,7576,https://ram.userbenchmark.com/SpeedTest/465040/Corsair-CMR16GX4M2D3000C16-2x8GB,2x8GB,DDR4,C16,3000
-RAM,CMZ64GX3M8A1600C9,Corsair,Vengeance,50,82.1,95,https://ram.userbenchmark.com/SpeedTest/100478/Corsair-Vengeance-CMZ64GX3M8A1600C9-8x8GB,8x8GB,DDR3,C9,1600
-RAM,CMR16GX4M2C3000C15,Corsair,Vengeance RGB,51,81.9,36785,https://ram.userbenchmark.com/SpeedTest/258851/Corsair-CMR16GX4M2C3000C15-2x8GB,2x8GB,DDR4,C15,3000
-RAM,F4-3000C16D-16GTZR,G.SKILL,Trident Z RGB,52,81.8,87594,https://ram.userbenchmark.com/SpeedTest/236585/GSKILL-F4-3000C16-8GTZR-2x8GB,2x8GB,DDR4,C16,3000
+RAM,HX424C15FBK4/16,HyperX,Fury,43,82.8,10773,https://ram.userbenchmark.com/HyperX-Fury-DDR4-2400-C15-4x4GB/Rating/3585,4x4GB,DDR4,C15,2400
+RAM,CMD16GX4M2B3000C15,Corsair,Dominator,44,82.5,13692,https://ram.userbenchmark.com/Corsair-Dominator-DDR4-3000-C15-2x8GB/Rating/3597,2x8GB,DDR4,C15,3000
+RAM,CMK16GX4M2B3000C15,Corsair,Vengeance LPX,45,82.3,576174,https://ram.userbenchmark.com/Corsair-Vengeance-LPX-DDR4-3000-C15-2x8GB/Rating/3546,2x8GB,DDR4,C15,3000
+RAM,CMK16GX4M2B3000C15B,Corsair,Vengeance LPX,45,82.3,576174,https://ram.userbenchmark.com/Corsair-Vengeance-LPX-DDR4-3000-C15-2x8GB/Rating/3546,2x8GB,DDR4,C15,3000
+RAM,CMK16GX4M2B3000C15R,Corsair,Vengeance LPX,45,82.3,576174,https://ram.userbenchmark.com/Corsair-Vengeance-LPX-DDR4-3000-C15-2x8GB/Rating/3546,2x8GB,DDR4,C15,3000
+RAM,CMK16GX4M2B3000C15W,Corsair,Vengeance LPX,45,82.3,576174,https://ram.userbenchmark.com/Corsair-Vengeance-LPX-DDR4-3000-C15-2x8GB/Rating/3546,2x8GB,DDR4,C15,3000
+RAM,HX426C13PB3K2/16,HyperX,Predator,46,82.2,7433,https://ram.userbenchmark.com/SpeedTest/318273/Kingston-KHX2666C138GX-2x8GB,2x8GB,,C13,2666
+RAM,CMR16GX4M2D3000C16,Corsair,Vengeance RGB,47,82.2,7576,https://ram.userbenchmark.com/SpeedTest/465040/Corsair-CMR16GX4M2D3000C16-2x8GB,2x8GB,DDR4,C16,3000
+RAM,CMZ64GX3M8A1600C9,Corsair,Vengeance,48,82.1,95,https://ram.userbenchmark.com/SpeedTest/100478/Corsair-Vengeance-CMZ64GX3M8A1600C9-8x8GB,8x8GB,DDR3,C9,1600
+RAM,CMR16GX4M2C3000C15,Corsair,Vengeance RGB,49,81.9,36785,https://ram.userbenchmark.com/SpeedTest/258851/Corsair-CMR16GX4M2C3000C15-2x8GB,2x8GB,DDR4,C15,3000
+RAM,CMW16GX4M2C3000C15,Corsair,Vengeance RGB PRO,50,81.8,98102,https://ram.userbenchmark.com/SpeedTest/523893/Corsair-CMW16GX4M2C3000C15-2x8GB,2x8GB,DDR4,C15,3200
+RAM,F4-3000C16D-16GTZR,G.SKILL,Trident Z RGB,51,81.8,87594,https://ram.userbenchmark.com/SpeedTest/236585/GSKILL-F4-3000C16-8GTZR-2x8GB,2x8GB,DDR4,C16,3000
+RAM,CMU16GX4M2C3000C15,Corsair,Vengeance LED,52,81.6,37683,https://ram.userbenchmark.com/SpeedTest/156965/Corsair-CMU16GX4M2C3000C15-2x8GB,2x8GB,DDR4,C15,3000
+RAM,CMU16GX4M2C3000C15B,Corsair,Vengeance LED,52,81.6,37683,https://ram.userbenchmark.com/SpeedTest/156965/Corsair-CMU16GX4M2C3000C15-2x8GB,2x8GB,DDR4,C15,3000
+RAM,CMU16GX4M2C3000C15R,Corsair,Vengeance LED,52,81.6,37683,https://ram.userbenchmark.com/SpeedTest/156965/Corsair-CMU16GX4M2C3000C15-2x8GB,2x8GB,DDR4,C15,3000
 RAM,HX421C14FBK4/32,HyperX,Fury,53,81.1,5894,https://ram.userbenchmark.com/HyperX-Fury-DDR4-2133-C14-4x8GB/Rating/3569,4x8GB,DDR4,C14,2133
 RAM,CMK8GX4M2B3000C15,Corsair,Vengeance LPX,54,80.8,28260,https://ram.userbenchmark.com/SpeedTest/90523/Corsair-Vengeance-LPX-CMK8GX4M2B3000C15-2x4GB,2x4GB,DDR4,C15,3000
 RAM,CMK16GX4M4A2400C16,Corsair,Vengeance LPX,55,80.8,481,https://ram.userbenchmark.com/SpeedTest/89553/Corsair-Vengeance-LPX-CMK16GX4M4A2400C16-4x4GB,4x4GB,DDR4,C16,2400
@@ -85,9 +85,9 @@ RAM,CMK16GX4M2C3000C16W,Corsair,Vengeance LPX,56,79.9,5906,https://ram.userbench
 RAM,BLS4K8G4D240FSB,Crucial,Ballistix Sport LT,57,79.6,621,https://ram.userbenchmark.com/Crucial-Ballistix-Sport-LT-DDR4-2400-C16-4x8GB/Rating/3637,4x8GB,DDR4,C16,2400
 RAM,BLS4K8G4D240FSC,Crucial,Ballistix Sport LT,57,79.6,621,https://ram.userbenchmark.com/Crucial-Ballistix-Sport-LT-DDR4-2400-C16-4x8GB/Rating/3637,4x8GB,DDR4,C16,2400
 RAM,BLS4K8G4D240FSE,Crucial,Ballistix Sport LT,57,79.6,621,https://ram.userbenchmark.com/Crucial-Ballistix-Sport-LT-DDR4-2400-C16-4x8GB/Rating/3637,4x8GB,DDR4,C16,2400
-RAM,HX426C16FB2K2/16,HyperX,Fury,58,79.4,139891,https://ram.userbenchmark.com/SpeedTest/272118/Kingston-KHX2666C168G-2x8GB,2x8GB,"",C16,2666
-RAM,HX426C16FW2K2/16,HyperX,Fury,58,79.4,139891,https://ram.userbenchmark.com/SpeedTest/272118/Kingston-KHX2666C168G-2x8GB,2x8GB,"",C16,2666
-RAM,HX426C16FR2K2/16,HyperX,Fury,58,79.4,139891,https://ram.userbenchmark.com/SpeedTest/272118/Kingston-KHX2666C168G-2x8GB,2x8GB,"",C16,2666
+RAM,HX426C16FB2K2/16,HyperX,Fury,58,79.4,139891,https://ram.userbenchmark.com/SpeedTest/272118/Kingston-KHX2666C168G-2x8GB,2x8GB,,C16,2666
+RAM,HX426C16FW2K2/16,HyperX,Fury,58,79.4,139891,https://ram.userbenchmark.com/SpeedTest/272118/Kingston-KHX2666C168G-2x8GB,2x8GB,,C16,2666
+RAM,HX426C16FR2K2/16,HyperX,Fury,58,79.4,139891,https://ram.userbenchmark.com/SpeedTest/272118/Kingston-KHX2666C168G-2x8GB,2x8GB,,C16,2666
 RAM,HX424C15FBK2/16,HyperX,Fury,59,79,20576,https://ram.userbenchmark.com/HyperX-Fury-DDR4-2400-C15-2x8GB/Rating/3587,2x8GB,DDR4,C15,2400
 RAM,BLS2K8G4D240FSA,Crucial,Ballistix Sport,60,76.9,3869,https://ram.userbenchmark.com/Crucial-Ballistix-Sport-DDR4-2400-C16-2x8GB/Rating/3611,2x8GB,DDR4,C16,2400
 RAM,BLS2K8G4D240FSB,Crucial,Ballistix Sport LT,61,76.6,9490,https://ram.userbenchmark.com/Crucial-Ballistix-Sport-LT-DDR4-2400-C16-2x8GB/Rating/3638,2x8GB,DDR4,C16,2400
@@ -96,7 +96,7 @@ RAM,BLS2K8G4D240FSE,Crucial,Ballistix Sport LT,61,76.6,9490,https://ram.userbenc
 RAM,F4-2400C15Q-32GVR,G.SKILL,Ripjaws V,62,76.6,7128,https://ram.userbenchmark.com/GSKILL-Ripjaws-V-DDR4-2400-C15-4x8GB/Rating/3568,4x8GB,DDR4,C15,2400
 RAM,CMK8GX4M2A2400C16,Corsair,Vengeance LPX,63,76.3,11649,https://ram.userbenchmark.com/SpeedTest/105361/Corsair-Vengeance-LPX-CMK8GX4M2A2400C16-2x4GB,2x4GB,DDR4,C16,2400
 RAM,CMK8GX4M2A2666C16,Corsair,Vengeance LPX,64,76.2,17567,https://ram.userbenchmark.com/SpeedTest/90467/Corsair-Vengeance-LPX-CMK8GX4M2A2666C16-2x4GB,2x4GB,DDR4,C16,2666
-RAM,CMK32GX4M2A2400C16,Corsair,Vengeance LPX,65,76.1,9143,https://ram.userbenchmark.com/SpeedTest/131225/Corsair-Vengeance-LPX-CMK32GX4M2A2400C16-2x16GB,2x16GB,DDR4,C16,2400
+RAM,CMK32GX4M2A2400C16,Corsair,Vengeance LPX,65,76.1,9213,https://ram.userbenchmark.com/SpeedTest/131225/Corsair-Vengeance-LPX-CMK32GX4M2A2400C16-2x16GB,2x16GB,DDR4,C16,2400
 RAM,CMK16GX4M2A2666C16,Corsair,Vengeance LPX,66,76,123999,https://ram.userbenchmark.com/Corsair-Vengeance-LPX-DDR4-2666-C16-2x8GB/Rating/3545,2x8GB,DDR4,C16,2666
 RAM,CMK16GX4M2A2666C16R,Corsair,Vengeance LPX,66,76,123999,https://ram.userbenchmark.com/Corsair-Vengeance-LPX-DDR4-2666-C16-2x8GB/Rating/3545,2x8GB,DDR4,C16,2666
 RAM,CMR16GX4M2A2666C16,Corsair,Vengeance RGB,67,75.6,8649,https://ram.userbenchmark.com/SpeedTest/282283/Corsair-CMR16GX4M2A2666C16-2x8GB,2x8GB,DDR4,C16,2666
@@ -108,9 +108,9 @@ RAM,CMU16GX4M2A2666C16B,Corsair,Vengeance LED,71,74.2,13569,https://ram.userbenc
 RAM,CMU16GX4M2A2666C16R,Corsair,Vengeance LED,71,74.2,13569,https://ram.userbenchmark.com/SpeedTest/152975/Corsair-CMU16GX4M2A2666C16-2x8GB,2x8GB,DDR4,C16,2666
 RAM,HX421C14FBK2/16,HyperX,Fury,72,73.1,59919,https://ram.userbenchmark.com/HyperX-Fury-DDR4-2133-C14-2x8GB/Rating/3552,2x8GB,DDR4,C14,2133
 RAM,HX421C14FB2K2/16,HyperX,Fury,72,73.1,59919,https://ram.userbenchmark.com/HyperX-Fury-DDR4-2133-C14-2x8GB/Rating/3552,2x8GB,DDR4,C14,2133
-RAM,CMU16GX4M2A2400C16,Corsair,Vengeance LED,73,72.7,2877,https://ram.userbenchmark.com/SpeedTest/293029/Corsair-CMU16GX4M2A2400C16-2x8GB,2x8GB,DDR4,C16,2400
-RAM,CMU16GX4M2A2400C16B,Corsair,Vengeance LED,73,72.7,2877,https://ram.userbenchmark.com/SpeedTest/293029/Corsair-CMU16GX4M2A2400C16-2x8GB,2x8GB,DDR4,C16,2400
-RAM,CMU16GX4M2A2400C16R,Corsair,Vengeance LED,73,72.7,2877,https://ram.userbenchmark.com/SpeedTest/293029/Corsair-CMU16GX4M2A2400C16-2x8GB,2x8GB,DDR4,C16,2400
+RAM,CMU16GX4M2A2400C16,Corsair,Vengeance LED,73,72.9,2877,https://ram.userbenchmark.com/SpeedTest/293029/Corsair-CMU16GX4M2A2400C16-2x8GB,2x8GB,DDR4,C16,2400
+RAM,CMU16GX4M2A2400C16B,Corsair,Vengeance LED,73,72.9,2877,https://ram.userbenchmark.com/SpeedTest/293029/Corsair-CMU16GX4M2A2400C16-2x8GB,2x8GB,DDR4,C16,2400
+RAM,CMU16GX4M2A2400C16R,Corsair,Vengeance LED,73,72.9,2877,https://ram.userbenchmark.com/SpeedTest/293029/Corsair-CMU16GX4M2A2400C16-2x8GB,2x8GB,DDR4,C16,2400
 RAM,CMK16GX4M2A2400C14,Corsair,Vengeance LPX,74,72.2,66204,https://ram.userbenchmark.com/Corsair-Vengeance-LPX-DDR4-2400-C14-2x8GB/Rating/3544,2x8GB,DDR4,C14,2400
 RAM,CMK16GX4M2A2400C14R,Corsair,Vengeance LPX,74,72.2,66204,https://ram.userbenchmark.com/Corsair-Vengeance-LPX-DDR4-2400-C14-2x8GB/Rating/3544,2x8GB,DDR4,C14,2400
 RAM,F4-2400C15D-8GVR,G.SKILL,Ripjaws V,75,72.1,19237,https://ram.userbenchmark.com/GSKILL-Ripjaws-V-DDR4-2400-C15-2x4GB/Rating/3559,2x4GB,DDR4,C15,2400
@@ -122,14 +122,14 @@ RAM,F4-2400C15D-16GVB,G.SKILL,Ripjaws V,79,70.4,101586,https://ram.userbenchmark
 RAM,F4-2400C15D-16GVK,G.SKILL,Ripjaws V,79,70.4,101586,https://ram.userbenchmark.com/GSKILL-Ripjaws-V-DDR4-2400-C15-2x8GB/Rating/3549,2x8GB,DDR4,C15,2400
 RAM,F4-2400C15D-16GVS,G.SKILL,Ripjaws V,79,70.4,101586,https://ram.userbenchmark.com/GSKILL-Ripjaws-V-DDR4-2400-C15-2x8GB/Rating/3549,2x8GB,DDR4,C15,2400
 RAM,F4-2400C15D-16GVG,G.SKILL,Ripjaws V,79,70.4,101586,https://ram.userbenchmark.com/GSKILL-Ripjaws-V-DDR4-2400-C15-2x8GB/Rating/3549,2x8GB,DDR4,C15,2400
-RAM,CMK16GX4M2A2133C13,Corsair,Vengeance LPX,80,69.6,51476,https://ram.userbenchmark.com/Corsair-Vengeance-LPX-DDR4-2133-C13-2x8GB/Rating/3543,2x8GB,DDR4,C13,2133
-RAM,CMK16GX4M2A2133C13R,Corsair,Vengeance LPX,80,69.6,51476,https://ram.userbenchmark.com/Corsair-Vengeance-LPX-DDR4-2133-C13-2x8GB/Rating/3543,2x8GB,DDR4,C13,2133
+RAM,CMK16GX4M2A2133C13,Corsair,Vengeance LPX,80,70.2,50199,https://ram.userbenchmark.com/Corsair-Vengeance-LPX-DDR4-2133-C13-2x8GB/Rating/3543,2x8GB,DDR4,C13,2133
+RAM,CMK16GX4M2A2133C13R,Corsair,Vengeance LPX,80,70.2,50199,https://ram.userbenchmark.com/Corsair-Vengeance-LPX-DDR4-2133-C13-2x8GB/Rating/3543,2x8GB,DDR4,C13,2133
 RAM,HX421C14FBK2/8,HyperX,Fury,81,68.9,42535,https://ram.userbenchmark.com/HyperX-Fury-DDR4-2133-C14-2x4GB/Rating/3554,2x4GB,DDR4,C14,2133
-RAM,F4-2133C15D-8GVR,G.SKILL,Ripjaws V,82,68.7,7323,https://ram.userbenchmark.com/GSKILL-Ripjaws-V-DDR4-2133-C15-2x4GB/Rating/3560,2x4GB,DDR4,C15,2133
+RAM,F4-2133C15D-8GVR,G.SKILL,Ripjaws V,82,68.7,7533,https://ram.userbenchmark.com/GSKILL-Ripjaws-V-DDR4-2133-C15-2x4GB/Rating/3560,2x4GB,DDR4,C15,2133
 RAM,F4-2133C15D-16GVB,G.SKILL,Ripjaws V,83,68.2,16086,https://ram.userbenchmark.com/GSKILL-Ripjaws-V-DDR4-2133-C15-2x8GB/Rating/3632,2x8GB,DDR4,C15,2133
 RAM,BLS2K4G4D240FSA,Crucial,Ballistix Sport,84,68,835,https://ram.userbenchmark.com/Crucial-Ballistix-Sport-DDR4-2400-C16-2x4GB/Rating/3601,2x4GB,DDR4,C16,2400
 RAM,F3-2400C10D-16GTX,G.SKILL,TridentX,85,67.1,22800,https://ram.userbenchmark.com/SpeedTest/89322/GSKILL-F3-2400C10-8GTX-2x8GB,2x8GB,DDR3,C10,2400
-RAM,HX324C11SRK2/16,HyperX,Savage,86,62.9,21963,https://ram.userbenchmark.com/SpeedTest/43621/Kingston-KHX2400C11D38GX-2x8GB,2x8GB,DDR3,C11,2400
+RAM,HX324C11SRK2/16,HyperX,Savage,86,63.5,19857,https://ram.userbenchmark.com/SpeedTest/43621/Kingston-KHX2400C11D38GX-2x8GB,2x8GB,DDR3,C11,2400
 RAM,CMY16GX3M2A2400C11,Corsair,Vengeance Pro,87,58.4,39287,https://ram.userbenchmark.com/SpeedTest/89568/Corsair-Vengeance-Pro-CMY16GX3M2A2400C11-2x8GB,2x8GB,DDR3,C11,2400
 RAM,HX318C10FK2/16,HyperX,Fury,88,58.4,114582,https://ram.userbenchmark.com/SpeedTest/42962/Kingston-KHX1866C10D38G-2x8GB,2x8GB,DDR3,C10,1866
 RAM,HX318C10FBK2/16,HyperX,Fury,88,58.4,114582,https://ram.userbenchmark.com/SpeedTest/42962/Kingston-KHX1866C10D38G-2x8GB,2x8GB,DDR3,C10,1866
@@ -147,14 +147,14 @@ RAM,HX316C10FBK2/8,HyperX,Fury,92,51.7,26005,https://ram.userbenchmark.com/Speed
 RAM,HX316C10FRK2/8,HyperX,Fury,92,51.7,26005,https://ram.userbenchmark.com/SpeedTest/42917/Kingston-KHX1600C10D38G-2x4GB,2x4GB,DDR3,C10,1600
 RAM,HX316C10FWK2/8,HyperX,Fury,92,51.7,26005,https://ram.userbenchmark.com/SpeedTest/42917/Kingston-KHX1600C10D38G-2x4GB,2x4GB,DDR3,C10,1600
 RAM,F3-14900CL10D-16GBXL,G.SKILL,RipjawsX,93,51,9278,https://ram.userbenchmark.com/SpeedTest/89210/GSKILL-F3-14900CL10-8GBXL-2x8GB,2x8GB,DDR3,C10,1866
-RAM,F3-12800CL10Q-32GBXL,G.SKILL,RipjawsX,94,50.9,3794,https://ram.userbenchmark.com/SpeedTest/90320/GSKILL-F3-12800CL10-8GBXL-4x8GB,4x8GB,DDR3,C10,1600
+RAM,F3-12800CL10Q-32GBXL,G.SKILL,RipjawsX,94,50.8,3888,https://ram.userbenchmark.com/SpeedTest/90320/GSKILL-F3-12800CL10-8GBXL-4x8GB,4x8GB,DDR3,C10,1600
 RAM,HX318C10FK2/8,HyperX,Fury,95,50.6,38264,https://ram.userbenchmark.com/HyperX-Fury-DDR3-1866-C10-2x4GB/Rating/3588,2x4GB,DDR3,C10,1866
 RAM,HX318C10FBK2/8,HyperX,Fury,95,50.6,38264,https://ram.userbenchmark.com/HyperX-Fury-DDR3-1866-C10-2x4GB/Rating/3588,2x4GB,DDR3,C10,1866
 RAM,HX318C10FRK2/8,HyperX,Fury,95,50.6,38264,https://ram.userbenchmark.com/HyperX-Fury-DDR3-1866-C10-2x4GB/Rating/3588,2x4GB,DDR3,C10,1866
 RAM,HX318C10FWK2/8,HyperX,Fury,95,50.6,38264,https://ram.userbenchmark.com/HyperX-Fury-DDR3-1866-C10-2x4GB/Rating/3588,2x4GB,DDR3,C10,1866
 RAM,HX316C9SRK2/8,HyperX,Savage,96,50.4,74745,https://ram.userbenchmark.com/SpeedTest/43139/Kingston-KHX1600C9D34GX-2x4GB,2x4GB,DDR3,C9,1600
 RAM,F3-12800CL10D-16GBXL,G.SKILL,RipjawsX,97,49.7,27031,https://ram.userbenchmark.com/SpeedTest/89329/GSKILL-F3-12800CL10-8GBXL-2x8GB,2x8GB,DDR3,C10,1600
-RAM,CMX8GX3M2A1600C9,Corsair,XMS3,98,49.2,10669,https://ram.userbenchmark.com/SpeedTest/89663/Corsair-XMS3-CMX8GX3M2A1600C9-2x4GB,2x4GB,DDR3,C9,1600
+RAM,CMX8GX3M2A1600C9,Corsair,XMS3,98,49.1,11383,https://ram.userbenchmark.com/SpeedTest/89663/Corsair-XMS3-CMX8GX3M2A1600C9-2x4GB,2x4GB,DDR3,C9,1600
 RAM,CMZ8GX3M2A1600C9,Corsair,Vengeance,99,48.7,70716,https://ram.userbenchmark.com/SpeedTest/89203/Corsair-Vengeance-CMZ8GX3M2A1600C9-2x4GB,2x4GB,DDR3,C9,1600
 RAM,BLS8G4D26BFSB,Crucial,Ballistix Sport LT,100,46.7,1414,https://ram.userbenchmark.com/SpeedTest/321149/Crucial-BLS8G4D26BFSC16FBD2-1x8GB,1x8GB,DDR4,C16,2666
 RAM,BLS8G4D26BFSC,Crucial,Ballistix Sport LT,100,46.7,1414,https://ram.userbenchmark.com/SpeedTest/321149/Crucial-BLS8G4D26BFSC16FBD2-1x8GB,1x8GB,DDR4,C16,2666
@@ -166,10 +166,10 @@ RAM,CMK8GX4M1A2400C16R,Corsair,Vengeance LPX,103,41.4,49114,https://ram.userbenc
 RAM,CT16G4DFD824A,Crucial,UDIMM,104,41.3,2506,https://ram.userbenchmark.com/SpeedTest/228105/Crucial-CT16G4DFD824AC16FAD-1x16GB,1x16GB,DDR4,C16,2400
 RAM,HX421C14FB/8,HyperX,Fury,105,40.3,15513,https://ram.userbenchmark.com/HyperX-Fury-DDR4-2133-C14-1x8GB/Rating/3555,1x8GB,DDR4,C14,2133
 RAM,CMK8GX4M1A2400C14,Corsair,Vengeance LPX,106,38.9,19372,https://ram.userbenchmark.com/SpeedTest/89446/Corsair-Vengeance-LPX-CMK8GX4M1A2400C14-1x8GB,1x8GB,DDR4,C14,2400
-RAM,CMK4GX4M1A2400C14,Corsair,Vengeance LPX,107,38.7,864,https://ram.userbenchmark.com/SpeedTest/97522/Corsair-Vengeance-LPX-CMK4GX4M1A2400C14-1x4GB,1x4GB,DDR4,C14,2400
+RAM,CMK4GX4M1A2400C14,Corsair,Vengeance LPX,107,38.7,868,https://ram.userbenchmark.com/SpeedTest/97522/Corsair-Vengeance-LPX-CMK4GX4M1A2400C14-1x4GB,1x4GB,DDR4,C14,2400
 RAM,CT4G4DFS824A,Crucial,UDIMM,108,38.4,4907,https://ram.userbenchmark.com/SpeedTest/372497/Crucial-CT4G4DFS824AC8FHP-1x4GB,1x4GB,DDR4,C17,2400
 RAM,F4-2133C15S-4GNT,G.SKILL,Value,109,37.6,564,https://ram.userbenchmark.com/SpeedTest/109263/GSKILL-F4-2133C15-4GNT-1x4GB,1x4GB,DDR4,C15,2133
 RAM,CMV4GX4M1A2133C15,Corsair,ValueSelect,110,37.2,1232,https://ram.userbenchmark.com/SpeedTest/96727/Corsair-ValueSelect-CMV4GX4M1A2133C15-1x4GB,1x4GB,DDR4,C15,2133
 RAM,CMZ8GX3M1A1600C10,Corsair,Vengeance,111,30.9,11132,https://ram.userbenchmark.com/SpeedTest/89201/Corsair-Vengeance-CMZ8GX3M1A1600C10-1x8GB,1x8GB,DDR3,C10,1600
-RAM,F3-12800CL9S-4GBRL,G.SKILL,Ripjaws,112,29.1,890,https://ram.userbenchmark.com/SpeedTest/90810/GSKILL-F3-12800CL9-4GBRL-1x4GB,1x4GB,DDR3,C9,1600
-RAM,F3-12800CL10S-8GBXL,G.SKILL,RipjawsX,113,27.8,4376,https://ram.userbenchmark.com/SpeedTest/89412/GSKILL-F3-12800CL10-8GBXL-1x8GB,1x8GB,DDR3,C10,1600
+RAM,F3-12800CL9S-4GBRL,G.SKILL,Ripjaws,112,29.1,898,https://ram.userbenchmark.com/SpeedTest/90810/GSKILL-F3-12800CL9-4GBRL-1x4GB,1x4GB,DDR3,C9,1600
+RAM,F3-12800CL10S-8GBXL,G.SKILL,RipjawsX,113,27.8,4418,https://ram.userbenchmark.com/SpeedTest/89412/GSKILL-F3-12800CL10-8GBXL-1x8GB,1x8GB,DDR3,C10,1600

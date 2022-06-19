@@ -7,4 +7,5 @@ class Discount < ApplicationRecord
                 numericality: { only_integer: true,
                                 less_than: 91, 
                                 greater_than: 0 }
+    validates :active, presence: true
 end

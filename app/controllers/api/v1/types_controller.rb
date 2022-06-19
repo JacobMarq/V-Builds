@@ -46,6 +46,6 @@ class Api::V1::TypesController < Api::V1::ApplicationController
 
     # Only allow a list of trusted parameters through.
     def type_params
-      params.require(:type).permit(:type_name)
+      params.require(:type).permit(:name)
     end
 end

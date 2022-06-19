@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2022_06_02_012657) do
+ActiveRecord::Schema[7.0].define(version: 2022_06_16_031402) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
@@ -42,22 +42,22 @@ ActiveRecord::Schema[7.0].define(version: 2022_06_02_012657) do
   end
 
   create_table "component_inventories", force: :cascade do |t|
+    t.bigint "components_id", null: false
     t.integer "quantity"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.index ["components_id"], name: "index_component_inventories_on_components_id"
   end
 
-  create_table "component_type_specification_options", force: :cascade do |t|
+  create_table "component_specification_options", force: :cascade do |t|
     t.bigint "component_id", null: false
-    t.bigint "type_id", null: false
     t.bigint "specification_id", null: false
     t.bigint "option_id", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.index ["component_id"], name: "index_component_type_specification_options_on_component_id"
-    t.index ["option_id"], name: "index_component_type_specification_options_on_option_id"
-    t.index ["specification_id"], name: "index_component_type_specification_options_on_specification_id"
-    t.index ["type_id"], name: "index_component_type_specification_options_on_type_id"
+    t.index ["component_id"], name: "index_component_specification_options_on_component_id"
+    t.index ["option_id"], name: "index_component_specification_options_on_option_id"
+    t.index ["specification_id"], name: "index_component_specification_options_on_specification_id"
   end
 
   create_table "components", force: :cascade do |t|
@@ -66,19 +66,21 @@ ActiveRecord::Schema[7.0].define(version: 2022_06_02_012657) do
     t.string "model"
     t.integer "price_cents", default: 0
     t.integer "ub_rank"
-    t.integer "ub_benchmark"
+    t.decimal "ub_benchmark", precision: 5, scale: 2
     t.integer "ub_samples"
     t.string "ub_link"
+    t.bigint "type_id", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.bigint "component_inventories_id", null: false
-    t.index ["component_inventories_id"], name: "index_components_on_component_inventories_id"
+    t.index ["part_number"], name: "index_components_on_part_number", unique: true
+    t.index ["type_id"], name: "index_components_on_type_id"
   end
 
   create_table "discounts", force: :cascade do |t|
     t.string "code"
     t.string "description"
     t.integer "discount_percent"
+    t.boolean "active"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
@@ -130,6 +132,7 @@ ActiveRecord::Schema[7.0].define(version: 2022_06_02_012657) do
     t.string "name"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.index ["name"], name: "index_specifications_on_name", unique: true
   end
 
   create_table "type_specifications", force: :cascade do |t|
@@ -145,6 +148,7 @@ ActiveRecord::Schema[7.0].define(version: 2022_06_02_012657) do
     t.string "name"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.index ["name"], name: "index_types_on_name", unique: true
   end
 
   create_table "typical_usages", force: :cascade do |t|
@@ -198,11 +202,11 @@ ActiveRecord::Schema[7.0].define(version: 2022_06_02_012657) do
   add_foreign_key "builds", "discounts"
   add_foreign_key "cart_items", "builds"
   add_foreign_key "cart_items", "shopping_sessions"
-  add_foreign_key "component_type_specification_options", "components"
-  add_foreign_key "component_type_specification_options", "options"
-  add_foreign_key "component_type_specification_options", "specifications"
-  add_foreign_key "component_type_specification_options", "types"
-  add_foreign_key "components", "component_inventories", column: "component_inventories_id"
+  add_foreign_key "component_inventories", "components", column: "components_id"
+  add_foreign_key "component_specification_options", "components"
+  add_foreign_key "component_specification_options", "options"
+  add_foreign_key "component_specification_options", "specifications"
+  add_foreign_key "components", "types"
   add_foreign_key "order_items", "builds"
   add_foreign_key "order_items", "orders"
   add_foreign_key "orders", "users", column: "users_id"

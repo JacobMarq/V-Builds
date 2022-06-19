@@ -1,8 +1,8 @@
 Rails.application.routes.draw do
+  resources :component_specification_options
   namespace 'api' do
     namespace 'v1' do
-      resources :component_type_specification_options
-      resources :component_inventories
+          resources :component_inventories
       resources :cart_items
       resources :shopping_sessions
       resources :user_builds

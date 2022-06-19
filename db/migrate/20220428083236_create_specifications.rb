@@ -5,5 +5,7 @@ class CreateSpecifications < ActiveRecord::Migration[7.0]
 
       t.timestamps
     end
+    add_index :specifications, :name, unique: true
+    #Ex:- add_index("admin_users", "username")
   end
 end

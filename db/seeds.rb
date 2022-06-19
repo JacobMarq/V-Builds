@@ -61,7 +61,11 @@ specifications = Specification.create([{ name: 'Memory Type' }, #GPU RAM CPU MOB
                             { name: 'Air Cooling' }, #COOLING_CPU
                             { name: 'Size' }, #COOLING_CPU #COOLING_CASE
                             { name: 'RGB' }, #COOLING_CASE
-                            { name: 'Noise Level'},]) #COOLING_CASE
+                            { name: 'Noise Level' }, #COOLING_CASE
+                            { name: 'Storage Space' }, #SDD HDD
+                            { name: 'Form Factor' }, #SDD HDD CASE MOBO
+                            { name: 'Bus Type' }, #SDD HDD
+                            {}])
 type_specifications = TypeSpecification.create([{ type_id: types[0].id, specification_id: specifications[0].id },
                                         { type_id: types[0].id, specification_id: specifications[1].id },
                                         { type_id: types[0].id, specification_id: specifications[2].id },
@@ -129,3 +133,5 @@ specification_options = SpecificationOption.create([{ specification_id: specific
                                                 { specification_id: specifications[24].id, option_id: options[16].id },
                                                 { specification_id: specifications[24].id, option_id: options[15].id },
                                                 { specification_id: specifications[24].id, option_id: options[14].id },])
+UbCSVCollection.collect_csv_files
+UbSeed.import_components

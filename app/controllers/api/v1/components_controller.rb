@@ -46,6 +46,6 @@ class Api::V1::ComponentsController < Api::V1::ApplicationController
 
     # Only allow a list of trusted parameters through.
     def component_params
-      params.require(:component).permit(:part_number, :brand, :model, :price, :ub_rank, :ub_benchmark, :ub_samples, :ub_link, :type_id, :stock)
+      params.require(:component).permit(:part_number, :brand, :model, :price, :ub_rank, :ub_benchmark, :ub_samples, :ub_link, :type_id)
     end
 end

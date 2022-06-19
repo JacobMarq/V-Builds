@@ -1,5 +1,5 @@
 class Api::V1::TypicalUsagesController < Api::V1::ApplicationController
-  before_action :set_typical_build_usage, only: %i[ show update destroy ]
+  before_action :set_typical_usage, only: %i[ show update destroy ]
 
   # GET /typical_usages
   def index
@@ -15,7 +15,7 @@ class Api::V1::TypicalUsagesController < Api::V1::ApplicationController
 
   # POST /typical_usages
   def create
-    @typical_usage = TypicalUsage.new(typical_build_usage_params)
+    @typical_usage = TypicalUsage.new(typical_usage_params)
 
     if @typical_usage.save
       render json: @typical_usage, status: :created, location: @typical_usage
@@ -26,7 +26,7 @@ class Api::V1::TypicalUsagesController < Api::V1::ApplicationController
 
   # PATCH/PUT /typical_usages/1
   def update
-    if @typical_usage.update(typical_build_usage_params)
+    if @typical_usage.update(typical_usage_params)
       render json: @typical_usage
     else
       render json: @typical_usage.errors, status: :unprocessable_entity
