@@ -26,7 +26,7 @@ class UbCSVFormatter
         CAS_Latency = 'CAS Latency'
         Speed = 'Speed'
         # Bus_Type = 'Bus Type'
-        Storage_Space = 'Storage Space'
+        # Storage_Space = 'Storage Space'
         # Form_Factor = 'Form Factor'
         # / Regexps for data types /
         Byte_Size_Reg = /\s\d+\w*[GT]B/.freeze
@@ -106,7 +106,7 @@ class UbCSVFormatter
 
         # extract data from row while altering model column from CSV table
         def extract_data!(header, col, row)
-            return col[row].slice! Byte_Size_Reg.match(col[row])[0] if header === Memory_Size || header === Storage_Space
+            return col[row].slice! Byte_Size_Reg.match(col[row]) if header === Memory_Size
             return col[row].slice! Memory_Type_Reg.match(col[row])[0] if header === Memory_Type 
             return col[row].slice! CAS_Latency_Reg.match(col[row])[0] if header === CAS_Latency
             return col[row].slice! Speed_Reg.match(col[row])[0] if header === Speed

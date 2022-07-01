@@ -29,9 +29,11 @@ class UbSeed
         
         private
         def create_components
-            type = Type.find_by! name: @table[1]["Type"]
+            @type = Type.find_by! name: @table[1]["Type"]
+            @spec_list = Specification.where(name: ['Memory Type', 'Memory Size', 'CAS Latency', 'Speed'])
+            
             @table.each {|row|
-                component = Component.create({
+                @component = Component.create({
                     part_number: row['Part Number'],
                     brand: row['Brand'],
                     model: row['Model'],
@@ -39,7 +41,35 @@ class UbSeed
                     ub_benchmark: row['Benchmark'],
                     ub_samples: row['Samples'],
                     ub_link: row['URL'],
-                    type_id: type.id})}
+                    type_id: @type.id})
+        
+                create_component_specs(row) if row.length > 8
+            }
+        end
+
+        # determine what specs are present to create the relationship
+        # between the components and its specification values.
+        def create_component_specs(row)
+            for spec in @spec_list do
+                if row[spec.name]
+                    opt_value = row[spec.name]
+                    add_component_spec(spec, opt_value)
+                end
+            end
+        end
+
+        # handle relationship creation between components and spec values
+        def add_component_spec(spec, opt_value)
+            # select and/or create given option value
+            opt = Option.find_by({value: opt_value})
+            if opt.nil?
+                opt = Option.create({value: opt_value})
+                SpecificationOption.create({specification_id: spec.id, option_id: opt.id})
+            end
+            puts(opt.value)
+            spec_opt = SpecificationOption.find_by!({specification_id: spec.id, option_id: opt.id})
+
+            ComponentSpecification.create({component_id: @component.id, specification_option_id: spec_opt.id})
         end
     end
 end

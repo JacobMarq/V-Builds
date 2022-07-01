@@ -49,15 +49,13 @@ ActiveRecord::Schema[7.0].define(version: 2022_06_16_031402) do
     t.index ["components_id"], name: "index_component_inventories_on_components_id"
   end
 
-  create_table "component_specification_options", force: :cascade do |t|
+  create_table "component_specifications", force: :cascade do |t|
     t.bigint "component_id", null: false
-    t.bigint "specification_id", null: false
-    t.bigint "option_id", null: false
+    t.bigint "specification_option_id", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.index ["component_id"], name: "index_component_specification_options_on_component_id"
-    t.index ["option_id"], name: "index_component_specification_options_on_option_id"
-    t.index ["specification_id"], name: "index_component_specification_options_on_specification_id"
+    t.index ["component_id"], name: "index_component_specifications_on_component_id"
+    t.index ["specification_option_id"], name: "index_component_specifications_on_specification_option_id"
   end
 
   create_table "components", force: :cascade do |t|
@@ -203,9 +201,8 @@ ActiveRecord::Schema[7.0].define(version: 2022_06_16_031402) do
   add_foreign_key "cart_items", "builds"
   add_foreign_key "cart_items", "shopping_sessions"
   add_foreign_key "component_inventories", "components", column: "components_id"
-  add_foreign_key "component_specification_options", "components"
-  add_foreign_key "component_specification_options", "options"
-  add_foreign_key "component_specification_options", "specifications"
+  add_foreign_key "component_specifications", "components"
+  add_foreign_key "component_specifications", "specification_options"
   add_foreign_key "components", "types"
   add_foreign_key "order_items", "builds"
   add_foreign_key "order_items", "orders"
