@@ -46,6 +46,6 @@ class Api::V1::SpecificationsController < Api::V1::ApplicationController
 
     # Only allow a list of trusted parameters through.
     def specification_params
-      params.require(:specification).permit(:specification_name)
+      params.require(:specification).permit(:name)
     end
 end

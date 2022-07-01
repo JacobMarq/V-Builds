@@ -46,6 +46,6 @@ class Api::V1::ComponentSpecificationsController < Api::V1::ApplicationControlle
 
     # Only allow a list of trusted parameters through.
     def component_specification_params
-      params.require(:component_specification).permit(:component_id, :specification_id, :option_id)
+      params.require(:component_specification).permit(:component_id, :specification_option_id)
     end
 end

@@ -46,6 +46,6 @@ class Api::V1::OptionsController < Api::V1::ApplicationController
 
     # Only allow a list of trusted parameters through.
     def option_params
-      params.require(:option).permit(:option_value)
+      params.require(:option).permit(:value)
     end
 end
