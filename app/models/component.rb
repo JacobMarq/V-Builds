@@ -2,9 +2,10 @@ class Component < ApplicationRecord
   belongs_to :type
   has_one :component_inventory
 
-  has_many :component_specification_options
-  has_many :specifications, through: :component_specification_options, source: :specification
-  has_many :options, through: :component_specification_options, source: :option
+  has_many :component_specifications
+  has_many :specification_options, through: :component_specifications, source: :specification_option
+  has_many :specifications, through: :specification_options, source: :specification
+  has_many :options, through: :specification_options, source: :option
   has_many :build_components
   has_many :builds, through: :build_components, source: :build
 
