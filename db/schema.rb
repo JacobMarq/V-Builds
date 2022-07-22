@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2022_06_16_031402) do
+ActiveRecord::Schema[7.0].define(version: 2022_07_22_105710) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
@@ -49,6 +49,18 @@ ActiveRecord::Schema[7.0].define(version: 2022_06_16_031402) do
     t.index ["components_id"], name: "index_component_inventories_on_components_id"
   end
 
+  create_table "component_resources", force: :cascade do |t|
+    t.bigint "component_id", null: false
+    t.integer "ub_rank"
+    t.decimal "ub_benchmark", precision: 5, scale: 2
+    t.integer "ub_samples"
+    t.string "ub_link"
+    t.integer "ne_rank"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["component_id"], name: "index_component_resources_on_component_id"
+  end
+
   create_table "component_specifications", force: :cascade do |t|
     t.bigint "component_id", null: false
     t.bigint "specification_option_id", null: false
@@ -63,10 +75,6 @@ ActiveRecord::Schema[7.0].define(version: 2022_06_16_031402) do
     t.string "brand"
     t.string "model"
     t.integer "price_cents", default: 0
-    t.integer "ub_rank"
-    t.decimal "ub_benchmark", precision: 5, scale: 2
-    t.integer "ub_samples"
-    t.string "ub_link"
     t.bigint "type_id", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
@@ -87,6 +95,7 @@ ActiveRecord::Schema[7.0].define(version: 2022_06_16_031402) do
     t.string "value"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.index ["value"], name: "index_options_on_value", unique: true
   end
 
   create_table "order_items", force: :cascade do |t|
@@ -201,6 +210,7 @@ ActiveRecord::Schema[7.0].define(version: 2022_06_16_031402) do
   add_foreign_key "cart_items", "builds"
   add_foreign_key "cart_items", "shopping_sessions"
   add_foreign_key "component_inventories", "components", column: "components_id"
+  add_foreign_key "component_resources", "components"
   add_foreign_key "component_specifications", "components"
   add_foreign_key "component_specifications", "specification_options"
   add_foreign_key "components", "types"

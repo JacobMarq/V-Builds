@@ -37,18 +37,23 @@ class UbSeed
                     part_number: row['Part Number'],
                     brand: row['Brand'],
                     model: row['Model'],
-                    ub_rank: row['Rank'],
-                    ub_benchmark: row['Benchmark'],
-                    ub_samples: row['Samples'],
-                    ub_link: row['URL'],
                     type_id: @type.id})
-        
+                
+                create_component_resource(row)
                 create_component_specs(row) if row.length > 8
             }
         end
 
-        # determine what specs are present to create the relationship
-        # between the components and its specification values.
+        def create_component_resource(row)
+            ComponentResource.create({
+                component_id: @component.id,
+                ub_rank: row['Rank'],
+                ub_benchmark: row['Benchmark'],
+                ub_samples: row['Samples'],
+                ub_link: row['URL']
+            })
+        end
+        
         def create_component_specs(row)
             for spec in @spec_list do
                 if row[spec.name]
@@ -58,9 +63,7 @@ class UbSeed
             end
         end
 
-        # handle relationship creation between components and spec values
         def add_component_spec(spec, opt_value)
-            # select and/or create given option value
             opt = Option.find_by({value: opt_value})
             if opt.nil?
                 opt = Option.create({value: opt_value})
